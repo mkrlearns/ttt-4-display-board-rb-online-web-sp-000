@@ -1,9 +1,9 @@
 # Define display_board that accepts a board and prints
 # out the current state.
-def display_board(board)
-  puts " #{0} | #{1} | #{2}"
+def display_board(x)
+  puts " #{x[0]} | #{x[1} | #{x[2}"
   puts "-------------------"
-  puts " #{3} | #{4} | #{5}"
+  puts " #{x[3} | #{x[4} | #{x[5}"
   puts "-------------------"
-  puts " #{6} | #{7} | #{8}"
+  puts " #{x[6} | #{x[7} | #{x[8}"
 end
