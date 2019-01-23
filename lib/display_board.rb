@@ -2,6 +2,8 @@
 # out the current state.
 def display_board(board)
   puts " #{0} | #{1} | #{2}"
-  puts " #{3} | #{0} | #{0}"
-  puts " #{0} | #{0} | #{0}"
+  puts "-------------------"
+  puts " #{3} | #{4} | #{5}"
+  puts "-------------------"
+  puts " #{6} | #{7} | #{8}"
 end
